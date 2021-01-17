@@ -202,7 +202,7 @@ typedef volatile LnPortRegisterType* LnPortAddrType;
 #define LN_RX_PORT  (*portInputRegister(GPIOB))
 #define LN_RX_BIT   (14)
 
-#define LN_SB_SIGNAL          exti15_10_isr
+#define LN_SB_SIGNAL          exti14_isr
 #define LN_TMR_SIGNAL         tim2_isr
 
 // Priority of the timer interrupt in hardware. If an OS is used and OS calls
